@@ -1,0 +1,106 @@
+.border{
+    border:2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: centre;
+}
+
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color:#121212 ;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+    
+}
+.p-1{
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    gap: 50px;
+   padding-top: 14px;
+    padding: 23px 14px;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+.library{
+    min-height: 70vh;
+}
+.header > *{
+    padding: 20px;
+}
+.card-container{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 30px;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+.card{
+  width:200px;
+  padding: 10px;
+  background: #252525;
+  border-radius: 5px;
+  position: relative;
+}
+.spotify-playlist{
+padding-left: 10px;
+}
+.card > *{
+    padding-top: 10px;
+}
+.card img{
+width:100%;
+
+object-fit: contain;
+}
+.buttons{
+
+    border-radius: 5px;
+   
+}
+.circular-button {
+    width: 60px;               /* Size of the button */
+    height: 50px;
+    background-color: rgb(11, 244, 11);    /* Green background */
+    border-radius: 50%;         /* Makes it perfectly circular */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+      margin-top:160px;
+      margin-left: 140px;
+      
+    }
+
+.circular-button svg {
+    padding-bottom: 5px;
+    width: 40px;               
+    height: 40px;
+}
+
+
